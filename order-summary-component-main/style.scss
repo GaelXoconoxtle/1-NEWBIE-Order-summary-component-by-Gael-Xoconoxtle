@@ -1,0 +1,169 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  color: hsl(223, 47%, 23%);
+  background-color: hsl(225, 100%, 94%);
+  margin: 0;
+}
+
+img {
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 18px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: white;
+  width: 450px;
+}
+
+.card-down {
+  
+}
+  h1 {
+    font-size:30px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+  .sub-text {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+    line-height: 26px;
+  }
+
+  .plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 250, 250);
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+    .icon-music {
+      width: 56px;
+      padding-right: 20px;
+      margin: 20px 0px;
+    }
+
+    .annual-plan-div{
+      padding-right: 90px;
+    }
+      h2 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 900;
+        margin-bottom: 4px;
+      }
+
+      p {
+        margin: 0;
+        color: hsl(224, 23%, 55%);
+      }
+
+    .change {
+      color: hsl(245, 75%, 52%);
+      font-weight: 700;
+      transition: color 0.15s;
+    }
+
+    .change:hover{
+      color: hsl(245, 84%, 63%);
+    }
+
+    .change:active{
+      color: hsl(245, 79%, 72%);
+    }
+
+  .buttons-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+    .procced-button{
+      color: white;
+      font-weight: 700;
+      background-color: hsl(245, 75%, 52%);
+      width: fit-content;
+      padding: 14px 110px;
+      border-radius: 12px;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+      margin-bottom: 20px;
+      text-decoration: none;
+      transition: background-color 0.15s;
+    }
+
+    .procced-button:hover{
+      background-color: hsl(245, 84%, 63%);
+    }
+
+    .procced-button:active{
+      background-color: hsl(245, 79%, 72%);
+    }
+
+    .cancel-button{
+      color: hsl(224, 23%, 55%);
+      font-weight: 700;
+      width: fit-content;
+      margin: 14px auto;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+
+    .cancel-button:hover{
+      color: hsl(226, 15%, 32%);
+    }
+
+    .cancel-button:active{
+      color: hsl(229, 14%, 16%);
+    }
+
+  .attribution { font-size: 11px; text-align: center; margin-top: 16px; margin-bottom: 12px;}
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+.background-image1{
+  width: 100%;
+}
+
+.background-image2{
+  width: 100%;
+  display: none;
+}
+
+/** Media Queries **/
+
+@media(min-width: 1440px){
+  .background-image1{
+    display: none;
+  }
+
+  .background-image2{
+    display: block;
+  }
+}
